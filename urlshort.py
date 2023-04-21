@@ -28,7 +28,13 @@ class Database:
         self.handle.close()
 
     def lookup(self, link_id: str):
-        pass
+        c = self.handle.cursor()
+        c.execute(f"SELECT * FROM Links WHERE dest = \'{link_id}\'")
+        result = c.fetchone()
+        if not result:
+            print(f"Failed to find link with id {link_id}")
+            return None
+        return result[1]
 
     def add(self, link: str):
         characters = string.ascii_letters + string.digits

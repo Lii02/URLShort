@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d267a465-5cb4-4357-b9da-cb08c103016c" name="Changes" comment="">
-      <change afterPath="D:/URLShort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="D:/URLShort/urlshort.py" afterDir="false" />
       <change beforePath="D:/URLShort/.idea/workspace.xml" beforeDir="false" afterPath="D:/URLShort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="D:/URLShort/common.py" beforeDir="false" />
       <change beforePath="D:/URLShort/lookup.py" beforeDir="false" afterPath="D:/URLShort/lookup.py" afterDir="false" />
-      <change beforePath="D:/URLShort/shorten.py" beforeDir="false" afterPath="D:/URLShort/shorten.py" afterDir="false" />
+      <change beforePath="D:/URLShort/urlshort.py" beforeDir="false" afterPath="D:/URLShort/urlshort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
