@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d267a465-5cb4-4357-b9da-cb08c103016c" name="Changes" comment="" />
+    <list default="true" id="d267a465-5cb4-4357-b9da-cb08c103016c" name="Changes" comment="">
+      <change afterPath="D:/URLShort/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/URLShort/urlshort.py" afterDir="false" />
+      <change beforePath="D:/URLShort/.idea/workspace.xml" beforeDir="false" afterPath="D:/URLShort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/URLShort/common.py" beforeDir="false" />
+      <change beforePath="D:/URLShort/lookup.py" beforeDir="false" afterPath="D:/URLShort/lookup.py" afterDir="false" />
+      <change beforePath="D:/URLShort/shorten.py" beforeDir="false" afterPath="D:/URLShort/shorten.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/URLShort" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="6083ijis" />
@@ -32,7 +42,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false"
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

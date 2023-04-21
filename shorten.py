@@ -1,11 +1,11 @@
-from common import Database
+import urlshort
 
 def main():
     input_link = input("Insert the link to shorten: ")
     if not input_link:
         print("No link was entered")
         return
-    db = Database(8)
+    db = urlshort.Database(8)
     db.add(input_link)
     db.close()
 

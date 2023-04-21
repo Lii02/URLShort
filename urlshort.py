@@ -33,6 +33,6 @@ class Database:
     def add(self, link: str):
         characters = string.ascii_letters + string.digits
         random_string = ''.join(random.choice(characters) for i in range(self.short_length))
-        self.handle.execute("INSERT INTO Links (src, dest) VALUES (?, ?)", (link, random_string))
+        self.handle.execute(f"INSERT INTO Links (src, dest) VALUES (\'{link}\', \'{random_string}\')")
         self.handle.commit()
         print(f"Added link {link} with database address of {random_string}")
